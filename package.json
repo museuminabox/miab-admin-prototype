@@ -1,0 +1,22 @@
+{
+  "name": "miab-admin-prototype",
+  "version": "0.0.1",
+  "description": "Museum in a Box admin prototype",
+  "scripts": {
+    "start": "env $(cat ./profile) node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/museuminabox/miab-admin-prototype.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "colors": ">= 0.6.0-1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "engines": {
+    "node": "6.x"
+  },
+  "author": "Rev Dan Catt"
+}
