@@ -12,6 +12,7 @@ path = require "path"
 
 hbsInstance = hbs.create(
   extname: '.html'
+  partialsDir: "./app/views/includes/"
 )
 
 app.engine 'html', hbsInstance.engine

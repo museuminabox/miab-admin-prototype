@@ -1,5 +1,6 @@
 fs = require "fs"
 utils = require "../../../modules/utils"
+mongoose  = require "mongoose"
 
 module.exports = homepage =
 
